@@ -27,3 +27,22 @@ h3 {
     color:#cf8600;
     font-size: 1.25rem;
 }
+
+nav a {
+    color:blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color:black
+}
+
+nav a:visited {
+    color:purple
+}
