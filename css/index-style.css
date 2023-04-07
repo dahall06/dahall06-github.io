@@ -1,0 +1,112 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #567189;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3  {
+    color: rgb(123, 143, 161);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline #CFB997 6px;
+    text-underline-offset: 12px;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+h2::before,
+h2::after {
+    content: "\1F4D4 ";
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+nav li {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    letter-spacing: 1px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav,
+header {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+nav a,
+.assignment a,
+footer a {
+    text-decoration: none;
+    color: #867070;
+}
+
+nav a:link,
+nav a:visited {
+    line-height: 1.5;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: underline dotted rgb(123, 143, 161) 2px;
+    text-underline-offset: 6px;
+    color:#19376D;
+}
+
+nav a:hover::before {
+    content: "\1F4D4 ";
+}
+
+header p {
+    font-size: 80%;
+}
+
+.assignment a:link,
+.assignment a:visited {
+    line-height: 1.6;
+}
+
+.assignment li {
+    list-style-type: none;
+}
+
+.assignment a:hover,
+.assignment a:active {
+    text-decoration: underline wavy #E8D5C4 2px;
+    text-underline-offset: 4px;
+}
+
+.assignment li::before {
+    content: "\1F4D4 ";
+    font-size: 1.5rem;
+}
+
+footer {
+    color: #567189;
+    line-height: 80%;
+    font-weight: 500;
+}
+
