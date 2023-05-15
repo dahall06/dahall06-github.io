@@ -1,0 +1,276 @@
+/*
+font-family: 'Croissant One', cursive;
+font-family: 'Lato', sans-serif; 
+*/
+html {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif; 
+    font-size: 1.20rem;
+    line-height: 125%;
+    color: #50504f;
+  }
+
+* ,
+* ::before ,
+* ::after {
+    box-sizing: inherit;
+}
+
+nav {
+    background-color: bisque;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:link,
+nav a:visited {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:hover,
+nav a:active {
+    padding: 20px;
+    display: inline-block;
+    color:antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Croissant One', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 6% 0;
+    text-shadow: 3px 5px 3px#ccc;
+}
+
+
+
+img {
+    float: left;
+    max-width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50%;
+    box-shadow: 3px 5px 3px #ccc;
+    shape-outside: circle(50%);
+}
+
+header h2 {
+    margin-top: 8%;
+}
+
+.rate {
+    clear: both;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.20rem;
+}
+
+.emoji ::after {
+    content: "/1f370";
+}
+
+.details,
+.ingredients,
+.instructions,
+.nutrition {
+    width: 40%;
+    float: left;
+}
+
+.details
+.instructions {
+    margin-right: 16%;
+    margin-left: 2%;
+}
+
+blockquote {
+    clear: both;
+    width: 300px;
+    height: 280px;
+    padding: 78px 16px 0 20px;
+    border-radius: 50%;
+    background-color: #f3b96c;
+    outline: dotted 6px #c98226;
+    outline-offset: 10px;
+    font-family: 'Croissant One', cursive;
+    font-size: 1rem;
+    margin: 40px 0;
+}
+
+blockquote small {
+    text-align: right;
+}
+
+footer {
+    background-color: #c98226;
+    color: white;
+    padding: 2% 0;
+    margin-top: 10px;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.col1,
+.col2,
+.col3 {
+    display: block;
+    float: left;
+    width: 33%;
+}
+
+footer p {
+    clear: both;
+}
+
+@media (max-width: 360px) {
+html {
+    line-height: 135%;
+}
+
+nav a {
+    padding: 5px;
+    letter-spacing: normal;
+    font-size: .9rem;
+}
+
+nav ul {
+    padding-left: 10px;
+}
+
+main {
+    width: 90%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-shadow: none;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+img {
+    float: none;
+    max-width: 60%;
+    margin-left: 20%;
+}
+
+.rate {
+    font-size: 1rem;
+}
+
+.details,
+.ingredients,
+.instructions,
+.nutrition {
+    width: 90%;
+    float: none;
+}
+
+
+.col1,
+.col2,
+.col3 {
+    display: block;
+    float: none;
+    width: 90%;
+}
+
+}
+
+@media (max-width: 810px) {
+    html {
+        line-height: 135%;
+    }
+    
+    nav a {
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: .9rem;
+    }
+    
+    nav ul {
+        padding-left: 10px;
+    }
+    
+    main {
+        width: 95%;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    img {
+        float: none;
+        max-width: 70%;
+        margin-left: 30%;
+    }
+    
+    .rate {
+        font-size: 1rem;
+    }
+    
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        width: 95%;
+        float: none;
+    }
+    
+    
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none;
+        width: 95%;
+    }
+
+}
